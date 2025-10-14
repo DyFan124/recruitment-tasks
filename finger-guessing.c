@@ -16,11 +16,11 @@ int main(){
     printf("输入1=石头\t输入2=剪刀\t输入3等于布\n");
 
     while(1){
-        if(player_win==3){
+        if(player_win==2){
             printf("你赢了！！\n");
             break;
         }
-        if(computer_win==3){
+        if(computer_win==2){
             printf("你输了！！\n");
             break;
         }
